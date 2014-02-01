@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/counterbutton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/buttonCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="detailsButton"
+        android:text="@string/sSTATS" />
+
+    <TextView
+        android:id="@+id/counterCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonCounter"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/buttonCounter"
+        android:layout_toRightOf="@+id/counterName"
+        android:gravity="center"
+        android:text="@string/layoutCount" />
+
+    <TextView
+        android:id="@+id/counterName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/counterCount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/layoutTitle"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+</RelativeLayout>

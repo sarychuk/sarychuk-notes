@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sarychuk-notes</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Add a New Counter</string>
+    <string name="button_add">Add</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="title_activity_display_message">Home</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="count">0</string>
+    <string name="reset">Reset</string>
+    <string name="stats">Stats</string>
+    <string name="delete">Delete</string>
+    
+    <string name="layoutTitle">Title</string>
+    <string name="layoutCount">Count</string>
+    <string name="sSTATS">Go To</string>
+
+
+</resources>
